@@ -1,0 +1,134 @@
+.header {
+  height: 502px;
+  padding-bottom: 0;
+}
+
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+
+.header__logo {
+  display: flex;
+  align-items: flex-end;
+}
+
+.header__logoImage {
+  background: url(./Ice-cream-logo.svg);
+  width: 18.604px;
+  height: 37.143px;
+}
+
+.header__logoText {
+  text-align: center;
+  color: #f8d24e;
+  font-family: 'Seymour One';
+  font-size: 14.874px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.487px;
+}
+
+.header__menuButton {
+  background: url(./menu.svg);
+  width: 32px;
+  height: 32px;
+}
+
+.header__title {
+  width: 247px;
+  height: 97px;
+  padding-top: 50px;
+
+  color: #fcfcfc;
+  font-family: 'Seymour One';
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.04px;
+  text-transform: uppercase;
+}
+
+.header__titlePassion {
+  color: #fcfcfc;
+  font-family: 'Seymour One';
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 96.5%;
+  text-transform: uppercase;
+}
+
+.header__links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header__productsButton {
+  width: 108px;
+  height: 38px;
+
+  background: inherit;
+
+  border-radius: 8px;
+  border: 2px solid #f8d24e;
+
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.header__paragraph {
+  color: #f8d24e;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.header__images {
+  display: flex;
+  align-items: flex-end;
+}
+
+.header__imagesBigIcecream {
+  position: absolute;
+  top: 283px;
+  left: 83px;
+  width: 177px;
+  height: 217px;
+
+  background: url(./Ice-cream-foto.png);
+}
+
+.header__imagesLeft {
+  position: absolute;
+  left: 0;
+  top: 468.16px;
+  width: 106.938px;
+  height: 33.838px;
+
+  background: url(./left.svg);
+}
+
+.header__imagesRight {
+  position: absolute;
+  top: 452.82px;
+  right: 0;
+  width: 126.545px;
+  height: 48.626px;
+
+  background: url(./right.svg);
+}
